@@ -105,13 +105,16 @@
 
 ---
 
-## 🚧 Future Enhancements
+## 🧠 Future Improvements
 
-- 🎨 Custom tilesets (grass, lava, etc.)
-- 🧭 Player movement demo
-- 📤 Export maze as Tiled `.tmx` format
-- 🧠 Add LLM-based enemy placement logic
-- 🌍 Multiplayer prompt interface
+- [ ] 🌍 Add support for level themes (e.g., forest, dungeon, sci-fi)
+- [ ] 🧠 Integrate maze difficulty tuning (easy, medium, hard)
+- [ ] 🧩 Extend to 3D maze generation
+- [ ] 🎮 Export levels to Unity (via JSON or custom plugin)
+- [ ] 🕹️ Export levels to Unreal Engine (via Blueprint-compatible format)
+- [ ] 🤖 Add NPC behavior generation (patrol, chase, etc.)
+- [ ] 🧠 Incorporate reinforcement learning agents to auto-play/test mazes
+
 
 ---
 
