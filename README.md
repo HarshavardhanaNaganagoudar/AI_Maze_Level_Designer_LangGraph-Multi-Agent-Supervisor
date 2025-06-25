@@ -64,8 +64,8 @@
 
 | Prompt | Rendered Maze |
 |--------|---------------|
-| "spooky maze with 1 enemy and 2 traps" | ![](generated_mazes/maze_design_5.png) |
-| "maze with a 1 enemy and 1 trap" | ![](generated_mazes/maze_design_4.png) |
+| "spooky maze with 1 enemy and 2 traps" | ![](./maze_design_new_5.png) |
+| "maze with a 1 enemy and 1 trap" | ![](./maze_design_new_4.png) |
 
 ---
 
