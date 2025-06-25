@@ -90,14 +90,18 @@
 
 ---
 
-## 📦 Deployment
+## 🚀 Try the Demo
 
-To deploy on Hugging Face Spaces:
+> **Run on Hugging Face Spaces:**  
+[![HF Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Try%20on-Hugging%20Face%20Spaces-blue?logo=huggingface)](https://huggingface.co/spaces/nharshavardhana/AI_Maze_Level_Designer)
 
-1. Create a new [Space](https://huggingface.co/spaces).
-2. Select “Gradio” as the SDK.
-3. Upload your code and assets.
-4. Make sure you have a `static/` folder for images and proper `app.py`
+---
+
+## 🎥 Watch Demo Video
+
+> **YouTube Walkthrough:**  
+[![YouTube](https://img.shields.io/badge/▶️%20Watch%20on-YouTube-red?logo=youtube)](https://youtube.com/your-demo-video-link)
+
 
 ---
 
