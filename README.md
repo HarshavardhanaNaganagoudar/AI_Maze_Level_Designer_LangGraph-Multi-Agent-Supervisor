@@ -51,47 +51,21 @@
 
 ---
 
-## 🚀 Getting Started
-
-### 1️⃣ Clone the Repository
-
-```bash
-git clone https://github.com/your-username/langgraph-maze-generator.git
-cd langgraph-maze-generator
-```
-
-### 2️⃣ Install Requirements
-
-```bash
-pip install -r requirements.txt
-```
-
-### 3️⃣ Launch the App
-
-```bash
-python app.py
-```
-
-Once running, the Gradio app will open in your browser for interaction.
-
----
-
 ## 🧩 Sample Prompts
 
 ```text
-- "Create a dungeon with 2 enemies and 1 goal"
+- "Create a maze with 2 enemies and 1 goal"
 - "Design a maze with traps and hidden exits"
 - "A 10x10 horror level with 3 enemies and 2 traps"
 ```
-
 ---
 
 ## 📸 Sample Outputs
 
 | Prompt | Rendered Maze |
 |--------|---------------|
-| "spooky maze with 1 enemy and 2 traps" | ![](generated_mazes/maze_design_1.png) |
-| "dungeon with a single path to the goal" | ![](generated_mazes/maze_design_2.png) |
+| "spooky maze with 1 enemy and 2 traps" | ![](generated_mazes/maze_design_5.png) |
+| "maze with a 1 enemy and 1 trap" | ![](generated_mazes/maze_design_4.png) |
 
 ---
 
@@ -103,25 +77,6 @@ Once running, the Gradio app will open in your browser for interaction.
 - 🖼️ `Matplotlib` for image rendering
 - 🌐 `Gradio` for interactive UI
 - 🐍 Python 3.10+
-
----
-
-## 📁 Project Structure
-
-```
-.
-├── app.py                         # Gradio interface
-├── agents/
-│   ├── design_intent_agent.py    # Extracts maze intent
-│   ├── layout_agent.py           # Builds 2D grid
-│   ├── test_agent.py             # Path validation
-│   └── render_image_agent.py     # Renders image
-├── generated_mazes/              # Saved maze images
-├── static/                       # Temporary file access
-├── architecture.png              # Architecture diagram
-├── requirements.txt              # Python dependencies
-└── README.md                     # This file
-```
 
 ---
 
@@ -142,16 +97,7 @@ To deploy on Hugging Face Spaces:
 1. Create a new [Space](https://huggingface.co/spaces).
 2. Select “Gradio” as the SDK.
 3. Upload your code and assets.
-4. Make sure you have a `static/` folder for images and proper `app.py`.
-
----
-
-## 🧪 Tests
-
-- Maze connectivity (BFS)
-- Agent coordination trace
-- Prompt-to-level consistency
-- Image rendering verification
+4. Make sure you have a `static/` folder for images and proper `app.py`
 
 ---
 
@@ -170,11 +116,3 @@ To deploy on Hugging Face Spaces:
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
 ---
-
-## 🙏 Acknowledgements
-
-- [LangGraph](https://github.com/langchain-ai/langgraph)
-- [Gradio](https://gradio.app/)
-- [Matplotlib](https://matplotlib.org/)
-- [Hugging Face Spaces](https://huggingface.co/spaces)
-- [NetworkX](https://networkx.org/)
