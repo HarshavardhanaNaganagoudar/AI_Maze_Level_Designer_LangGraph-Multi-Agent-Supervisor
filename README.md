@@ -100,7 +100,7 @@
 ## 🎥 Watch Demo Video
 
 > **YouTube Walkthrough:**  
-[![YouTube](https://img.shields.io/badge/▶️%20Watch%20on-YouTube-red?logo=youtube)](https://youtube.com/your-demo-video-link)
+[![YouTube](https://img.shields.io/badge/▶️%20Watch%20on-YouTube-red?logo=youtube)](https://youtu.be/nSkt-AqBnNE?si=sIykOpQ5tyo7hHcS)
 
 
 ---
